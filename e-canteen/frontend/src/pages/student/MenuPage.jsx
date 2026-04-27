@@ -69,7 +69,7 @@ const MenuPage = () => {
     return matchesSearch && matchesCategory;
   });
 
-  // Group items by category for display
+  // Group items by category for display this
   const groupedItems = filteredItems.reduce((acc, item) => {
     if (!acc[item.category]) {
       acc[item.category] = [];
