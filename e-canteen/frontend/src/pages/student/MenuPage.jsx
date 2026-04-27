@@ -108,7 +108,7 @@ const MenuPage = () => {
 
   return (
     <div className="space-y-6">
-      {/* Header & Filters */}
+      {/* Header & Filters new */}
       <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div>
           <h1 className="text-3xl font-bold">Menu</h1>
