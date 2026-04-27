@@ -38,7 +38,7 @@ const MenuPage = () => {
         const response = await menuAPI.getAll();
         // API returns { data: { items: [...], pagination: {...} } }
         const items = response.data?.data?.items || response.data?.items || [];
-        // Filter only available items for students
+        // Filter only available items for student
         setMenuItems(Array.isArray(items) ? items.filter((item) => item.isAvailable) : []);
       } catch (error) {
         console.error('Failed to fetch menu items:', error);
