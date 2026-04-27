@@ -414,7 +414,6 @@ const AdminOrders = () => {
                   </div>
                 </div>
 
-                {/* Status History */}
                 {selectedOrder.statusHistory?.length > 0 && (
                   <>
                     <Separator />
